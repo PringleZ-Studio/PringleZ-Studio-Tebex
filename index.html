@@ -1,31 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PringleZ Studio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PringleZ Studio creates premium, performance-first FiveM resources for ambitious communities.">
+  <meta name="theme-color" content="#08060d">
+  <meta property="og:title" content="PringleZ Studio — Premium FiveM Resources">
+  <meta property="og:description" content="Polished systems. Clean configuration. Serious support.">
+  <meta property="og:image" content="assets/pringlez-studio-logo.png">
+  <title>PringleZ Studio — Premium FiveM Resources</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fix.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-<header class="hero">
-<h1>PRINGLEZ STUDIO</h1>
-<p>Premium FiveM Development • ESX • QBCore • Standalone</p>
-<a class="btn" href="https://yourstore.tebex.io">Shop Now</a>
-</header>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="PringleZ Studio home">
+      <img src="assets/pringlez-studio-logo.png" alt="" width="46" height="46">
+      <span>PRINGLEZ <b>STUDIO</b></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#resources">Resources</a>
+      <a href="#quality">Why us</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#resources">Browse store <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-<section class="section">
-<h2>Featured Resources</h2>
-<div class="grid">
-<div class="card"><h3>Crime System</h3><p>Advanced criminal gameplay.</p></div>
-<div class="card"><h3>Housing System</h3><p>Fully configurable properties.</p></div>
-<div class="card"><h3>Gang System</h3><p>Modern gang management.</p></div>
-<div class="card"><h3>Admin Tools</h3><p>Powerful moderation suite.</p></div>
-</div>
-</section>
+  <main>
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Built for serious FiveM servers</p>
+        <h1>Build a server<br>players <em>remember.</em></h1>
+        <p class="hero-text">Premium, performance-first resources crafted for immersive communities. Clean code, thoughtful configuration and support that stays with you.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#resources">Explore resources <span aria-hidden="true">→</span></a>
+          <a class="button ghost" href="#quality">Why PringleZ?</a>
+        </div>
+        <div class="trust-row" aria-label="Resource compatibility">
+          <span>Made for</span><b>ESX</b><i></i><b>QBCore</b><i></i><b>Standalone</b>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="logo-shell">
+          <div class="logo-halo"></div>
+          <img src="assets/pringlez-studio-logo.png" alt="" width="620" height="620">
+        </div>
+        <span class="spark spark-one"></span><span class="spark spark-two"></span><span class="spark spark-three"></span>
+      </div>
+    </section>
 
-<section class="discord">
-<h2>Join Our Discord</h2>
-<p>Support, updates, giveaways and previews.</p>
-</section>
+    <section class="marquee" aria-label="Our values">
+      <div class="marquee-track">
+        <span>PERFORMANCE FIRST</span><b>✦</b><span>CONFIGURABLE</span><b>✦</b><span>POLISHED UX</span><b>✦</b><span>ACTIVE SUPPORT</span><b>✦</b>
+        <span>PERFORMANCE FIRST</span><b>✦</b><span>CONFIGURABLE</span><b>✦</b><span>POLISHED UX</span><b>✦</b><span>ACTIVE SUPPORT</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="section resources" id="resources">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow"><span></span> The collection</p><h2>Made to feel native.<br><em>Built to stand out.</em></h2></div>
+        <p>From deep gameplay systems to the tools behind your staff team, every resource is designed to fit naturally into your server.</p>
+      </div>
+      <div class="resource-grid">
+        <article class="resource-card featured reveal">
+          <div class="card-number">01</div>
+          <div class="card-icon">⌁</div>
+          <div class="card-body"><p>Gameplay systems</p><h3>Crime & progression</h3><span>Immersive loops that keep players engaged and give every choice weight.</span></div>
+          <a href="#contact" aria-label="Explore crime and progression resources">Explore <span>↗</span></a>
+        </article>
+        <article class="resource-card reveal">
+          <div class="card-number">02</div><div class="card-icon">◇</div>
+          <div class="card-body"><p>Player experience</p><h3>Housing & lifestyle</h3><span>Flexible systems that make your city feel personal, social and alive.</span></div>
+          <a href="#contact" aria-label="Explore housing and lifestyle resources">Explore <span>↗</span></a>
+        </article>
+        <article class="resource-card reveal">
+          <div class="card-number">03</div><div class="card-icon">⌘</div>
+          <div class="card-body"><p>Server operations</p><h3>Staff & management</h3><span>Purpose-built tooling for faster workflows and calmer administration.</span></div>
+          <a href="#contact" aria-label="Explore staff and management resources">Explore <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quality" id="quality">
+      <div class="quality-visual reveal">
+        <img src="assets/pringlez-studio-logo.png" alt="PringleZ Studio" loading="lazy">
+        <div class="code-pill"><span></span> Optimised & ready</div>
+      </div>
+      <div class="quality-copy reveal">
+        <p class="eyebrow"><span></span> Quality without compromise</p>
+        <h2>Details are not<br><em>an afterthought.</em></h2>
+        <p>We care about the things your players never see as much as the moments they do. That means clean architecture, sensible defaults and documentation that gets you running quickly.</p>
+        <div class="benefit-list">
+          <div><b>01</b><span><strong>Performance-first</strong>Lean resources made for busy servers.</span></div>
+          <div><b>02</b><span><strong>Built to configure</strong>Make it yours without fighting the code.</span></div>
+          <div><b>03</b><span><strong>Real support</strong>Clear help when you need a hand.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow"><span></span> Good to know</p><h2>Frequently asked<br><em>questions.</em></h2></div>
+      </div>
+      <div class="accordion reveal">
+        <details><summary>Which frameworks do you support?<span>+</span></summary><p>Support varies by resource, with options across ESX, QBCore and standalone setups. Check the product page before purchase for exact requirements.</p></details>
+        <details><summary>Will I receive updates?<span>+</span></summary><p>Active resources receive improvements and compatibility updates. Product pages include the latest version and update information.</p></details>
+        <details><summary>Where can I get installation help?<span>+</span></summary><p>Each resource includes setup guidance. For anything else, use the support channel linked from the relevant Tebex package.</p></details>
+        <details><summary>Can you build something custom?<span>+</span></summary><p>Custom work depends on availability and project fit. Reach out with a clear brief and we can discuss what is possible.</p></details>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="cta-glow" aria-hidden="true"></div>
+      <div class="cta-content reveal">
+        <img src="assets/pringlez-studio-logo.png" alt="" width="100" height="100" loading="lazy">
+        <p class="eyebrow"><span></span> Ready when you are</p>
+        <h2>Give your city the<br><em>upgrade it deserves.</em></h2>
+        <a class="button primary" href="#resources">Browse the collection <span>→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><img src="assets/pringlez-studio-logo.png" alt="" width="42" height="42"><span>PRINGLEZ <b>STUDIO</b></span></a>
+    <p>Premium resources for ambitious FiveM communities.</p>
+    <div><a href="#resources">Store</a><a href="#quality">About</a><a href="#faq">Support</a></div>
+    <small>© <span id="year"></span> PringleZ Studio. All rights reserved.</small>
+  </footer>
 </body>
 </html>
